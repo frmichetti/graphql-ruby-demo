@@ -1,7 +1,6 @@
 Types::CountryType = GraphQL::ObjectType.define do
-  name "CountryType" # É como o schema irá identificar essa type.
+  name "CountryType"
 
-  # Campos que serão visíveis numa consulta
   field :id, types.ID
   field :abbreviation, types.String
   field :name, types.String
